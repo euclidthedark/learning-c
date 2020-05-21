@@ -1,7 +1,8 @@
 #include<stdio.h>
 
 /* This is a file that contains the basic declartion for c files */
-int main () {
+int main () 
+{
 	int x = 4, y = 5;
 	float z = 3.14;
 
