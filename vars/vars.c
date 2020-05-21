@@ -9,4 +9,6 @@ int main () {
 	printf("%d times %d is equal to %d.\n", x, y, x * y);
 	printf("This is how you format a float.\n");
 	printf("The approximation of pi is %0.2f.\n", z);
+
+	return 0;
 }
