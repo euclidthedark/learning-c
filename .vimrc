@@ -1,1 +1,0 @@
-/home/euclidthedark/dotfiles/vim/vimrc/c/.vimrc

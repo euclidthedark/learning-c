@@ -37,3 +37,25 @@ You can also format them in i/o like so...
 printf("%d.", x); /* is an int*/
 printf("%0.2f, %f.", pi, pi); /* This is a float, and you can format with precision as well. */
 ```
+
+
+### Functions
+
+Functions are mathematical objects that take in an input and perform an action, or return an output.
+You must decalre the data type they will return. If they don't return one, you must say they return void.
+
+
+Ex.
+
+``` c
+void func ()
+{
+	...
+}
+
+
+int func ()
+{
+	return 0;
+}
+```
