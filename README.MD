@@ -64,3 +64,14 @@ int func ()
 ### Loops
 
 Loops are a expressions that allow you to iterate over collections of data. There are for, while, do while loops.
+
+
+
+### Complier
+
+The c compiler is what takes your code and compiles it into machine readable code. There are a couple of basic commands
+to keep in mind when using it.
+
+
+
+
