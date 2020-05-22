@@ -59,3 +59,8 @@ int func ()
 	return 0;
 }
 ```
+
+
+### Loops
+
+Loops are a expressions that allow you to iterate over collections of data. There are for, while, do while loops.
