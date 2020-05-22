@@ -12,7 +12,7 @@ come from the standard library, or they can be your own/ported library or c file
 Ex.
 
 ``` c
-#include<stdio.h>
+
 
 int main () {
   return 0;
@@ -88,4 +88,4 @@ gcc <file>.c -p -o <nameOfProgram>
 *Other Options*
 
 To preserve comments in the code use `-c` options.
-To supress hash line details use the -`EP` option
+To suppress hash line details use the -`EP` option
