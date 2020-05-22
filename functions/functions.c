@@ -15,4 +15,6 @@ int main ()
 
 	printf("We can multiply %d and %d.\n", x, y);
 	printf("The answer is %d.\n", multiply(x, y));
+
+	return 0;
 }
