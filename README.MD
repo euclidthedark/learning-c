@@ -62,12 +62,24 @@ int func ()
 
 Loops are a expressions that allow you to iterate over collections of data. There are for, while, do while loops.
 
+There are short hands for loops.
+
+Ex.
+
+``` c
+for (int i = 0; i < 10; i += 1)
+	... one line of code.
+
+while (int i < 10)
+	... one line of code.
+
 ### Complier
 
 The c compiler is what takes your code and compiles it into machine readable code. There are a couple of basic commands
 to keep in mind when using it.
 
-When compliling a file, in order to tell the preprocessor to include your header files, you must include the /P options.
+When compliling a file, in order to tell the preprocessor to include your header files, you must include the /P
+options.
 
 Ex.
 
@@ -75,7 +87,8 @@ Ex.
 gcc <file>.c -p
 ```
 
-This will compile the files and create another file with a <file>.i extension. From there, you can see the source code it creates.
+This will compile the files and create another file with a <file>.i extension. From there, you can see the source code
+it creates.
 
 Also, if you want to output the compilation into an .exacutable program, you can use the -o flag.
 
