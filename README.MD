@@ -84,7 +84,7 @@ option.
 Ex.
 
 ``` sh
-gcc <file>.c -p
+gcc <file>.c -P
 ```
 
 This will compile the files and create another file with a <file>.i extension. From there, you can see the source code
@@ -95,13 +95,14 @@ Also, if you want to output the compilation into an .exacutable program, you can
 Ex.
 
 ``` sh
-gcc <file>.c -p -o <nameOfProgram>
+gcc <file>.c -P -o <nameOfProgram>
 ```
 
 *Other Options*
 
-To preserve comments in the code use `-c` options.
-To suppress hash line details use the -`EP` option
+To preserve comments in the code use `-C` options.
+To suppress hash line details use the -`EP` option.
+To define variables in command line, you can use the `-D<variable>` options.
 
 *You can also use the preprocessor to generate code with Macros. Remember that you Macro's can cause a lot of trouble
 when creating programs. The convention for creating macro's is Capialitize their spelling.
@@ -109,12 +110,46 @@ when creating programs. The convention for creating macro's is Capialitize their
 
 Example .h file
 ``` c
-int multiply (int x, int y) {
+int multiply (int x, int y)
+{
 	return x * y;
 }
 
-#define SQUARE (x) multiply(x, x);
+#define SQUARE (x) multiply(x, x) 
 ```
 
 Macros can be used to create more layers of abstaction.
 
+You can also create conditional macro code as well.
+
+``` c
+#include 'myHeader.h' 
+
+int main ()
+{
+	#if <...condition>
+		...someCode
+	#endif 
+}
+```
+
+Furthermore, you can use macros to define values and run conditions based on compilation arguments.
+
+``` c
+#include 'myHeader.h'
+
+#define LEVEL 2
+
+int main ()
+{
+	#if LEVEL > 0 
+		printf("LEVEL is 2.\n");
+	#endif
+
+	#if defined(RUNTIME)
+		printf("Runtime is defined.\n");
+	#endif
+}
+```
+*Above code is compiled with*
+`gcc file.c -P -ofile -DRUNTIME`
