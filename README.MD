@@ -75,11 +75,11 @@ while (int i < 10)
 
 ### Complier
 
-The c compiler is what takes your code and compiles it into machine readable code. There are a couple of basic commands
+The c compiler takes your code and compiles it into machine readable code. There are basic commands
 to keep in mind when using it.
 
 When compliling a file, in order to tell the preprocessor to include your header files, you must include the /P
-options.
+option.
 
 Ex.
 
@@ -102,3 +102,19 @@ gcc <file>.c -p -o <nameOfProgram>
 
 To preserve comments in the code use `-c` options.
 To suppress hash line details use the -`EP` option
+
+*You can also use the preprocessor to generate code with Macros. Remember that you Macro's can cause a lot of trouble
+when creating programs. The convention for creating macro's is Capialitize their spelling.
+*
+
+Example .h file
+``` c
+int multiply (int x, int y) {
+	return x * y;
+}
+
+#define SQUARE (x) multiply(x, x);
+```
+
+Macros can be used to create more layers of abstaction.
+
