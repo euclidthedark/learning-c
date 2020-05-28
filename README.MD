@@ -14,7 +14,8 @@ Ex.
 ``` c
 
 
-int main () {
+int main ()
+{
   return 0;
 }
 ```
@@ -72,6 +73,7 @@ for (int i = 0; i < 10; i += 1)
 
 while (int i < 10)
 	... one line of code.
+```
 
 ### Complier
 
@@ -101,7 +103,7 @@ gcc <file>.c -P -o <nameOfProgram>
 *Other Options*
 
 To preserve comments in the code use `-C` options.
-To suppress hash line details use the -`EP` option.
+To suppress hash line details use the `-EP` option.
 To define variables in command line, you can use the `-D<variable>` options.
 
 *You can also use the preprocessor to generate code with Macros. Remember that you Macro's can cause a lot of trouble
