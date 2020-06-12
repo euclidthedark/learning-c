@@ -108,6 +108,8 @@ gcc <file>.c -P -o <nameOfProgram>
 * To compile without the complier version, use the `-nologo` option.
 * You can also compile c files with the -c option, `gcc -nologo *.c  -c`. This will create object files.
 From there, you can link them into an executable with `link *.obj -out:foo.exe`
+* You can supress warning with the `-w` option.
+* You can display level 4 compliler warnings with the `-w4` option.
 
 *You can also use the preprocessor to generate code with Macros. Remember that you Macro's can cause a lot of trouble
 when creating programs. The convention for creating macro's is Capialitize their spelling.
