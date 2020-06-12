@@ -105,6 +105,7 @@ gcc <file>.c -P -o <nameOfProgram>
 To preserve comments in the code use `-C` options.
 To suppress hash line details use the `-EP` option.
 To define variables in command line, you can use the `-D<variable>` options.
+To compile without the complier version, use the `-nologo` option.
 
 *You can also use the preprocessor to generate code with Macros. Remember that you Macro's can cause a lot of trouble
 when creating programs. The convention for creating macro's is Capialitize their spelling.
