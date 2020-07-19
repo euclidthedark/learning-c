@@ -61,7 +61,7 @@ int func ()
 
 ### Loops
 
-Loops are a expressions that allow you to iterate over collections of data. There are for, while, do while loops.
+Loops are an expressions that allow you to iterate over collections of data. There are for, while, do while loops.
 
 There are short hands for loops.
 
@@ -155,3 +155,11 @@ int main ()
 ```
 *Above code is compiled with*
 `gcc file.c -P -ofile -DRUNTIME`
+
+### Datatypes
+
+*** Structs
+
+A structure is a collection of one or more variables, possibly of different types, grouped together under a single name for convenient handling.
+
+Kernighan, Brian W.. C Programming Language (p. 127). Pearson Education. Kindle Edition. 
