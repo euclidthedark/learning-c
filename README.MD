@@ -43,6 +43,7 @@ printf("%0.2f, %f.", pi, pi); /* This is a float, and you can format with precis
 
 Functions are mathematical objects that take in an input and perform an action, or return an output.
 You must decalre the data type they will return. If they don't return one, you must say they return void.
+In addition, you must declare the types of the input variables in a functions signature.
 
 Ex.
 
