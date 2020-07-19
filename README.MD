@@ -163,8 +163,10 @@ int main ()
 
 ### Datatypes
 
-*** Structs
+*Structs*
 
 A structure is a collection of one or more variables, possibly of different types, grouped together under a single name for convenient handling.
 
 Kernighan, Brian W.. C Programming Language (p. 127). Pearson Education. Kindle Edition. 
+
+* Remember structures can be nested.
