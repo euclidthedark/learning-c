@@ -163,6 +163,14 @@ int main ()
 
 ### Datatypes
 
+*Enums*
+
+An enumeration is a list of constant integer values. The first name in an enum has value 0, the next 1, and so on, unless explicit values are specified. If not all values are specified, unspecified values continue the progression from the last specified value.
+
+* You can declare enums with their literal definition, or by declaring them with a typedef.
+
+Kernighan, Brian W.. C Programming Language (p. 39). Pearson Education. Kindle Edition. 
+
 *Structs*
 
 A structure is a collection of one or more variables, possibly of different types, grouped together under a single name for convenient handling.
@@ -170,3 +178,5 @@ A structure is a collection of one or more variables, possibly of different type
 Kernighan, Brian W.. C Programming Language (p. 127). Pearson Education. Kindle Edition. 
 
 * Remember structures can be nested.
+* You can also create structs from factory functions.
+* You can declare structs with their literal definition, or by declaring them with a typedef.
