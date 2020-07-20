@@ -163,6 +163,15 @@ int main ()
 `gcc file.c -P -ofile -DRUNTIME`
 
 ### Datatypes
+*Char*
+
+A char is a string type, and are a byte in length.
+
+* Addional Qualifiers:
+	- unsigned - are integers (i) where i >= 0, and follow the law of arithmetic modulo 2^n where (n) is the number of
+	bits in the type.
+	- signed - always have -128 to 127 bits *(in a twos compliment machine)*
+
 
 *Int*
 
