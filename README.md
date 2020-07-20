@@ -185,7 +185,17 @@ An integer is a real number integer, as the name suggests. Below is a list of th
 	bits in the type.
 	- signed - always have -128 to 127 bits *(in a twos compliment machine)*
 
-*Floats/Double*
+*Floats*
+
+A single precision floating number.
+
+* Addional Qualifiers:
+	- short - (the word int can be omitted when using this qualifier) creates an int that are at least 16 bits long.
+	- long - (the word int can be omitted when using this qualifier) create an int that are at least 32 bits long. 
+
+*Double*
+
+A double precision floating number.
 
 * Addional Qualifiers:
 	- short - (the word int can be omitted when using this qualifier) creates an int that are at least 16 bits long.
