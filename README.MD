@@ -164,9 +164,24 @@ int main ()
 
 ### Datatypes
 
+*Int*
+
+An integer is a real number integer, as the name suggests. Below is a list of the following addional options for
+`ints`. The integer type usually reflects the natural size of integers on the host machine.
+
+* Addional Qualifiers:
+	- short - (the word int can be omitted when using this qualifier) creates an int that are at least 16 bits long.
+	- long - (the word int can be omitted when using this qualifier) create an int that are at least 32 bits long. 
+	- unsigned - are integers (i) where i >= 0, and follow the law of arithmetic modulo 2^n where (n) is the number of
+	bits in the type.
+	- signed - always have -128 to 127 bits *(in a twos compliment machine)*
+
+
 *Enums*
 
-An enumeration is a list of constant integer values. The first name in an enum has value 0, the next 1, and so on, unless explicit values are specified. If not all values are specified, unspecified values continue the progression from the last specified value.
+An enumeration is a list of constant integer values. The first name in an enum has value 0, the next 1, and so on,
+unless explicit values are specified. If not all values are specified, unspecified values continue the progression
+from the last specified value.
 
 * You can declare enums with their literal definition, or by declaring them with a typedef.
 
@@ -174,7 +189,8 @@ Kernighan, Brian W.. C Programming Language (p. 39). Pearson Education. Kindle E
 
 *Structs*
 
-A structure is a collection of one or more variables, possibly of different types, grouped together under a single name for convenient handling.
+A structure is a collection of one or more variables, possibly of different types, grouped together under a single name
+for convenient handling.
 
 Kernighan, Brian W.. C Programming Language (p. 127). Pearson Education. Kindle Edition. 
 
