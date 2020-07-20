@@ -7,7 +7,7 @@ This is my journey in learning c!!!
 
 ### C Styles
 
-* Declare constant values in preprocessor headers (macor's)
+* Declare constant values in preprocessor headers (macor's), or with enum types.
 
 ### Header Files
 
