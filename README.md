@@ -4,6 +4,11 @@ This is my journey in learning c!!!
 
 ## Overview
 
+
+### C Styles
+
+* Declare constant values in preprocessor headers (macor's)
+
 ### Header Files
 
 Header files are the includes for a c program. You must hard link them with the c compiler. Header files can
