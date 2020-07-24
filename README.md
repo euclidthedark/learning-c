@@ -1,4 +1,4 @@
-# Learning C
+Learning C
 
 This is my journey in learning c!!!
 
@@ -227,3 +227,18 @@ Kernighan, Brian W.. C Programming Language (p. 127). Pearson Education. Kindle 
 * Remember structures can be nested.
 * You can also create structs from factory functions.
 * You can declare structs with their literal definition, or by declaring them with a typedef.
+
+*Unions*
+
+// TODO: write about unions
+
+
+*Pointers and Arrays*
+
+Pointers and Arrays are usually talked about together, as they are very similar.
+
+**Pointers**
+
+	- * is the dereference and refrence operator.
+	- (*p)++ is how you increment pointers.
+	- & is the address of operator.
