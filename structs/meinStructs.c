@@ -1,4 +1,14 @@
 #include<stdio.h>
+/**
+ * Also, when creating structs, you can use incomplete datatypes and reference
+ * them by pointers.
+ *
+ * typedef struct name *new_name;
+ *
+ * struct {
+ * int x;
+ * };
+ * \
 
 // This is defining a struct without a typedef
 struct OrderedPair {
